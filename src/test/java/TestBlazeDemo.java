@@ -67,6 +67,8 @@ public class TestBlazeDemo {
         demoNavBarPage.clickOnCartSection();
         cartModel = demoCartPage.getModel();
         cartPrice = demoCartPage.getPrice();
+        System.out.println("Model: " + cartModel + " Price: " + cartPrice);
+
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(model, cartModel);
         softAssert.assertEquals(price, cartPrice);
