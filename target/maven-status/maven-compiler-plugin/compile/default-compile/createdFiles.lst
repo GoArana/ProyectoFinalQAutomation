@@ -1,0 +1,10 @@
+pages\DemoCartPage.class
+pages\DemoCart.class
+pages\DemoHomePage.class
+pages\DemoItem.class
+pages\DemoProductDetail.class
+utility\PropertiesFile.class
+pages\DemoFormPage.class
+pages\DemoNavBarPage.class
+pages\DemoNav.class
+pages\DemoProducts.class
